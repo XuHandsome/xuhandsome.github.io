@@ -20,28 +20,28 @@
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.1.1/animate.min.css" integrity="sha256-PR7ttpcvz8qrF57fur/yAx1qXMFJeJFiA6pSzWi0OIE=" crossorigin="anonymous">
 
 <script class="next-config" data-name="main" type="application/json">{&quot;hostname&quot;:&quot;xuhandsome.gitee.io&quot;,&quot;root&quot;:&quot;&#x2F;&quot;,&quot;images&quot;:&quot;&#x2F;images&quot;,&quot;scheme&quot;:&quot;Muse&quot;,&quot;version&quot;:&quot;8.4.0&quot;,&quot;exturl&quot;:false,&quot;sidebar&quot;:{&quot;position&quot;:&quot;left&quot;,&quot;display&quot;:&quot;post&quot;,&quot;padding&quot;:18,&quot;offset&quot;:12},&quot;copycode&quot;:false,&quot;bookmark&quot;:{&quot;enable&quot;:false,&quot;color&quot;:&quot;#222&quot;,&quot;save&quot;:&quot;auto&quot;},&quot;fancybox&quot;:false,&quot;mediumzoom&quot;:false,&quot;lazyload&quot;:false,&quot;pangu&quot;:false,&quot;comments&quot;:{&quot;style&quot;:&quot;tabs&quot;,&quot;active&quot;:null,&quot;storage&quot;:true,&quot;lazyload&quot;:false,&quot;nav&quot;:null},&quot;motion&quot;:{&quot;enable&quot;:true,&quot;async&quot;:false,&quot;transition&quot;:{&quot;post_block&quot;:&quot;fadeIn&quot;,&quot;post_header&quot;:&quot;fadeInDown&quot;,&quot;post_body&quot;:&quot;fadeInDown&quot;,&quot;coll_header&quot;:&quot;fadeInLeft&quot;,&quot;sidebar&quot;:&quot;fadeInUp&quot;}},&quot;prism&quot;:false,&quot;i18n&quot;:{&quot;placeholder&quot;:&quot;Searching...&quot;,&quot;empty&quot;:&quot;We didn&#39;t find any results for the search: ${query}&quot;,&quot;hits_time&quot;:&quot;${hits} results found in ${time} ms&quot;,&quot;hits&quot;:&quot;${hits} results found&quot;}}</script>
-<meta name="description" content="Namespacedocker基于namespace进行进程隔离 docker容器只是运行了一个独立的进程，这个进程使用namespace实现与其他namespace、宿主机。 隔离模式 pid uts mount user network ipc  那么docker容器就是运行了一个由多个隔离限制组合起来的进程。 与虚拟机不同的是，容器只是启动了一个特殊的进程，使用的还是宿主机的操作系统内核，与">
+<meta name="description" content="清理删除所有dangling数据卷(即无用的volume)： 1docker volume prune   删除所有dangling镜像(即无tag的镜像)： 1docker rmi $(docker images | grep &quot;^&lt;none&gt;&quot; | awk &quot;&amp;#123;print $3&amp;#125;&quot;)   删除所有关闭的容器: 1docke">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Namespace">
-<meta property="og:url" content="https://xuhandsome.gitee.io/2021/05/01/Namespace/index.html">
+<meta property="og:title" content="docker常用命令">
+<meta property="og:url" content="https://xuhandsome.gitee.io/2021/04/10/docker%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/index.html">
 <meta property="og:site_name" content="我只是个小运维">
-<meta property="og:description" content="Namespacedocker基于namespace进行进程隔离 docker容器只是运行了一个独立的进程，这个进程使用namespace实现与其他namespace、宿主机。 隔离模式 pid uts mount user network ipc  那么docker容器就是运行了一个由多个隔离限制组合起来的进程。 与虚拟机不同的是，容器只是启动了一个特殊的进程，使用的还是宿主机的操作系统内核，与">
+<meta property="og:description" content="清理删除所有dangling数据卷(即无用的volume)： 1docker volume prune   删除所有dangling镜像(即无tag的镜像)： 1docker rmi $(docker images | grep &quot;^&lt;none&gt;&quot; | awk &quot;&amp;#123;print $3&amp;#125;&quot;)   删除所有关闭的容器: 1docke">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2021-04-30T18:17:43.000Z">
-<meta property="article:modified_time" content="2021-05-04T17:59:42.275Z">
+<meta property="article:published_time" content="2021-04-10T09:01:06.000Z">
+<meta property="article:modified_time" content="2021-05-12T09:01:43.742Z">
 <meta property="article:author" content="Xuhandsome">
 <meta property="article:tag" content="docker">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="https://xuhandsome.gitee.io/2021/05/01/Namespace/">
+<link rel="canonical" href="https://xuhandsome.gitee.io/2021/04/10/docker%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{&quot;sidebar&quot;:&quot;&quot;,&quot;isHome&quot;:false,&quot;isPost&quot;:true,&quot;lang&quot;:&quot;zh-cn&quot;,&quot;comments&quot;:true,&quot;permalink&quot;:&quot;https:&#x2F;&#x2F;xuhandsome.gitee.io&#x2F;2021&#x2F;05&#x2F;01&#x2F;Namespace&#x2F;&quot;,&quot;path&quot;:&quot;2021&#x2F;05&#x2F;01&#x2F;Namespace&#x2F;&quot;,&quot;title&quot;:&quot;Namespace&quot;}</script>
+<script class="next-config" data-name="page" type="application/json">{&quot;sidebar&quot;:&quot;&quot;,&quot;isHome&quot;:false,&quot;isPost&quot;:true,&quot;lang&quot;:&quot;zh-cn&quot;,&quot;comments&quot;:true,&quot;permalink&quot;:&quot;https:&#x2F;&#x2F;xuhandsome.gitee.io&#x2F;2021&#x2F;04&#x2F;10&#x2F;docker%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4&#x2F;&quot;,&quot;path&quot;:&quot;2021&#x2F;04&#x2F;10&#x2F;docker常用命令&#x2F;&quot;,&quot;title&quot;:&quot;docker常用命令&quot;}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">&quot;&quot;</script>
-<title>Namespace | 我只是个小运维</title><script src="/js/config.js"></script>
+<title>docker常用命令 | 我只是个小运维</title><script src="/js/config.js"></script>
   
 
 
@@ -108,7 +108,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#Namespace"><span class="nav-number">1.</span> <span class="nav-text">Namespace</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E9%9A%94%E7%A6%BB%E6%A8%A1%E5%BC%8F"><span class="nav-number">1.1.</span> <span class="nav-text">隔离模式</span></a></li></ol></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%B8%85%E7%90%86"><span class="nav-number">1.</span> <span class="nav-text">清理</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#%E6%9F%A5%E8%AF%A2"><span class="nav-number">2.</span> <span class="nav-text">查询</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#docker%E8%BF%9B%E7%A8%8B%E6%97%A5%E5%BF%97"><span class="nav-number">3.</span> <span class="nav-text">docker进程日志</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -165,7 +165,7 @@
   
 
   <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-cn">
-    <link itemprop="mainEntityOfPage" href="https://xuhandsome.gitee.io/2021/05/01/Namespace/">
+    <link itemprop="mainEntityOfPage" href="https://xuhandsome.gitee.io/2021/04/10/docker%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="image" content="/images/avatar.gif">
@@ -178,7 +178,7 @@
     </span>
       <header class="post-header">
         <h1 class="post-title" itemprop="name headline">
-          Namespace
+          docker常用命令
         </h1>
 
         <div class="post-meta-container">
@@ -189,14 +189,14 @@
       </span>
       <span class="post-meta-item-text">Posted on</span>
 
-      <time title="Created: 2021-05-01 02:17:43" itemprop="dateCreated datePublished" datetime="2021-05-01T02:17:43+08:00">2021-05-01</time>
+      <time title="Created: 2021-04-10 17:01:06" itemprop="dateCreated datePublished" datetime="2021-04-10T17:01:06+08:00">2021-04-10</time>
     </span>
       <span class="post-meta-item">
         <span class="post-meta-item-icon">
           <i class="far fa-calendar-check"></i>
         </span>
         <span class="post-meta-item-text">Edited on</span>
-        <time title="Modified: 2021-05-05 01:59:42" itemprop="dateModified" datetime="2021-05-05T01:59:42+08:00">2021-05-05</time>
+        <time title="Modified: 2021-05-12 17:01:43" itemprop="dateModified" datetime="2021-05-12T17:01:43+08:00">2021-05-12</time>
       </span>
 
   
@@ -209,18 +209,29 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <h2 id="Namespace"><a href="#Namespace" class="headerlink" title="Namespace"></a>Namespace</h2><p>docker基于namespace进行进程隔离</p>
-<p>docker容器只是运行了一个独立的进程，这个进程使用namespace实现与其他namespace、宿主机。</p>
-<h3 id="隔离模式"><a href="#隔离模式" class="headerlink" title="隔离模式"></a>隔离模式</h3><ul>
-<li>pid</li>
-<li>uts</li>
-<li>mount</li>
-<li>user</li>
-<li>network</li>
-<li>ipc</li>
-</ul>
-<p>那么docker容器就是运行了一个由多个隔离限制组合起来的进程。</p>
-<p>与虚拟机不同的是，容器只是启动了一个特殊的进程，使用的还是宿主机的操作系统内核，与宿主机共享资源。</p>
+        <h3 id="清理"><a href="#清理" class="headerlink" title="清理"></a>清理</h3><p><strong>删除所有dangling数据卷(即无用的volume)：</strong></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker volume prune</span><br></pre></td></tr></table></figure>
+
+
+<p><strong>删除所有dangling镜像(即无tag的镜像)：</strong></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker rmi $(docker images | grep <span class="string">&quot;^&lt;none&gt;&quot;</span> | awk <span class="string">&quot;&#123;print <span class="variable">$3</span>&#125;&quot;</span>)</span><br></pre></td></tr></table></figure>
+
+
+<p><strong>删除所有关闭的容器:</strong></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker ps -a | grep Exit | cut -d <span class="string">&#x27; &#x27;</span> -f 1 | xargs docker rm</span><br></pre></td></tr></table></figure>
+
+
+<p><strong>清空容器日志:</strong></p>
+<figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">#!/bin/bash</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">for</span> container_id <span class="keyword">in</span> <span class="variable">$</span>(docker <span class="built_in">ps</span> <span class="literal">-a</span> -<span class="literal">-filter</span>=<span class="string">&quot;name=<span class="variable">$name</span>&quot;</span> <span class="literal">-q</span>); <span class="keyword">do</span></span><br><span class="line">	file=<span class="variable">$</span>(docker inspect <span class="operator">-f</span> <span class="string">&#x27;&#123;&#123;.LogPath&#125;&#125;&#x27;</span> <span class="variable">$container_id</span>)</span><br><span class="line">	sudo <span class="built_in">ls</span> <span class="literal">-lh</span> <span class="variable">$file</span></span><br><span class="line">	<span class="keyword">if</span> [ -<span class="type">f</span> <span class="variable">$file</span> ]; then</span><br><span class="line">		<span class="built_in">echo</span> <span class="variable">$file</span></span><br><span class="line">		<span class="built_in">cat</span> /dev/null &gt;<span class="variable">$file</span></span><br><span class="line">	fi</span><br><span class="line">done</span><br></pre></td></tr></table></figure>
+
+
+<h3 id="查询"><a href="#查询" class="headerlink" title="查询"></a>查询</h3><p>**对应docker run ****–ip=,获取所有容器设置的IP地址**</p>
+<figure class="highlight powershell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> <span class="variable">$</span>(docker <span class="built_in">ps</span> | grep <span class="literal">-v</span> CON | awk <span class="string">&#x27;&#123;print $1&#125;&#x27;</span>); <span class="keyword">do</span></span><br><span class="line">    <span class="built_in">echo</span> <span class="variable">$i</span></span><br><span class="line">    docker inspect <span class="variable">$i</span> | grep IPAddress | tail <span class="literal">-n</span> <span class="number">1</span></span><br><span class="line">done</span><br></pre></td></tr></table></figure>
+
+
+<h3 id="docker进程日志"><a href="#docker进程日志" class="headerlink" title="docker进程日志"></a>docker进程日志</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">journalctl /usr/bin/dockerd</span><br></pre></td></tr></table></figure>
+
+
 
     </div>
 
@@ -237,13 +248,13 @@
 
           <div class="post-nav">
             <div class="post-nav-item">
-                <a href="/2021/05/01/Cgroup/" rel="prev" title="Cgroup">
-                  <i class="fa fa-chevron-left"></i> Cgroup
+                <a href="/2021/03/12/%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E6%94%B6%E9%9B%86/" rel="prev" title="常用命令收集">
+                  <i class="fa fa-chevron-left"></i> 常用命令收集
                 </a>
             </div>
             <div class="post-nav-item">
-                <a href="/2021/05/01/dockerimages/" rel="next" title="dockerimages">
-                  dockerimages <i class="fa fa-chevron-right"></i>
+                <a href="/2021/05/01/Cgroup/" rel="next" title="Cgroup">
+                  Cgroup <i class="fa fa-chevron-right"></i>
                 </a>
             </div>
           </div>
