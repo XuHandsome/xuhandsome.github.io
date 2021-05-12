@@ -185,7 +185,7 @@
       <span class="post-meta-item-text">Posted on</span>
       
 
-      <time title="Created: 2021-05-12 17:02:11 / Modified: 17:05:36" itemprop="dateCreated datePublished" datetime="2021-05-12T17:02:11+08:00">2021-05-12</time>
+      <time title="Created: 2021-05-12 17:02:11 / Modified: 18:09:35" itemprop="dateCreated datePublished" datetime="2021-05-12T17:02:11+08:00">2021-05-12</time>
     </span>
 
   
@@ -215,7 +215,7 @@
 
 <p>例如输出：running linux/amd64, linux/arm64, linux/ppc64le, linux/s390x, linux/386, linux/arm/v7, linux/arm/v6</p>
 <h3 id="构建镜像"><a href="#构建镜像" class="headerlink" title="构建镜像"></a>构建镜像</h3><p>去build目录下运行脚本构建</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker：./scripts/build-docker.sh linux/arm64</span><br></pre></td></tr></table></figure>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">docker buildx build --platform linux/arm64 --output <span class="built_in">type</span>=docker -t operation-log:1.0.0-arm64 .</span><br><span class="line">docker buildx build --platform linux/amd64 --output <span class="built_in">type</span>=docker -t operation-log:1.0.0 .</span><br></pre></td></tr></table></figure>
 
 <p>参数linux/arm64是需要编译到的arm cpu架构，如果不指定，默认是以本机的cpu架构来构建docker</p>
 
