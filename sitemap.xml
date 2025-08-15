@@ -1,0 +1,458 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://blog.ohops.org/gallery/sample/index.html</loc>
+    
+    <lastmod>2025-08-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ohops.org/gallery/index.html</loc>
+    
+    <lastmod>2025-08-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ohops.org/2025/08/15/K8S%E4%B8%80%E4%BA%9B%E8%BF%9B%E9%98%B6%E8%BF%90%E7%BB%B4%E7%9F%A5%E8%AF%86/</loc>
+    
+    <lastmod>2025-08-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ohops.org/2022/09/16/Linux%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E9%9B%86%E5%90%88/</loc>
+    
+    <lastmod>2025-08-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ohops.org/2022/09/09/Linux%E7%BD%91%E5%8D%A1Bond%E5%90%8E%E8%8E%B7%E5%8F%96%E7%9C%9F%E5%AE%9EMAC%E5%9C%B0%E5%9D%80/</loc>
+    
+    <lastmod>2025-08-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ohops.org/2025/08/15/Linux%E8%BF%9B%E7%A8%8B%E4%B8%8ECPU%E7%9B%B8%E5%85%B3%E5%9F%BA%E7%A1%80/</loc>
+    
+    <lastmod>2025-08-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ohops.org/2022/08/31/Octopus/</loc>
+    
+    <lastmod>2025-08-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ohops.org/2022/09/06/PVE%E5%B5%8C%E5%A5%97%E8%99%9A%E6%8B%9F%E5%8C%96/</loc>
+    
+    <lastmod>2025-08-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ohops.org/2022/09/02/Windows%E5%BC%80%E5%90%AFWinRM/</loc>
+    
+    <lastmod>2025-08-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ohops.org/2022/09/05/debian11%E6%B8%85%E5%8D%8E%E5%A4%A7%E5%AD%A6%E6%BA%90/</loc>
+    
+    <lastmod>2025-08-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ohops.org/2022/09/16/openldap-exporter-in-docker-prometheus-operator/</loc>
+    
+    <lastmod>2025-08-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ohops.org/2023/02/19/%E6%91%B8%E9%B1%BC%E7%AC%94%E8%AE%B0/</loc>
+    
+    <lastmod>2025-08-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ohops.org/2022/08/31/%E8%87%AA%E5%AE%9A%E4%B9%89Centos7-9%E9%95%9C%E5%83%8F-%E9%BB%98%E8%AE%A45-15%E5%86%85%E6%A0%B8/</loc>
+    
+    <lastmod>2025-08-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ohops.org/2022/08/31/5-15-47/</loc>
+    
+    <lastmod>2025-08-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ohops.org/2022/09/02/Bind9%E4%B8%BB%E4%BB%8E-%E5%AE%9E%E6%97%B6%E5%90%8C%E6%AD%A5%E9%98%BF%E9%87%8C%E4%BA%91PrivateZone/</loc>
+    
+    <lastmod>2025-08-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ohops.org/2023/08/02/CKA/</loc>
+    
+    <lastmod>2025-08-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ohops.org/2022/08/31/Centos7%E4%BF%AE%E6%94%B9%E7%BD%91%E5%8D%A1%E5%90%8D%E7%A7%B0/</loc>
+    
+    <lastmod>2025-08-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ohops.org/2023/02/19/Ceph%E5%81%A5%E5%BA%B7%E5%91%8A%E8%AD%A6+%E9%92%89%E9%92%89/</loc>
+    
+    <lastmod>2025-08-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ohops.org/2023/02/19/Ceph%E6%97%A5%E5%B8%B8%E8%BF%90%E7%BB%B4/</loc>
+    
+    <lastmod>2025-08-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ohops.org/2023/02/19/Ceph%E8%BF%90%E7%BB%B4%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</loc>
+    
+    <lastmod>2025-08-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ohops.org/2022/09/14/Debian11-PVE7-1-%E5%AE%89%E8%A3%85DellRacadm-DCISM/</loc>
+    
+    <lastmod>2025-08-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ohops.org/2022/09/02/Consul%E9%9B%86%E7%BE%A4%E9%83%A8%E7%BD%B2/</loc>
+    
+    <lastmod>2025-08-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ohops.org/2022/09/14/Dell%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%80%9A%E8%BF%87Ansible%E6%89%B9%E9%87%8F%E9%85%8D%E7%BD%AERaid0/</loc>
+    
+    <lastmod>2025-08-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ohops.org/2022/09/19/Elasticsearch8%E5%B0%8F%E8%AE%B0/</loc>
+    
+    <lastmod>2025-08-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ohops.org/2022/08/31/Docker%E8%BF%90%E7%BB%B4%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4%E9%9B%86%E5%90%88/</loc>
+    
+    <lastmod>2025-08-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ohops.org/2022/09/14/Elasticsearch8%E6%93%8D%E4%BD%9C%E8%B8%A9%E5%9D%91%E8%AE%B0%E5%BD%95/</loc>
+    
+    <lastmod>2025-08-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ohops.org/2025/08/15/Elasticsearch%E8%BF%90%E7%BB%B4%E8%BF%9B%E9%98%B6/</loc>
+    
+    <lastmod>2025-08-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ohops.org/2022/08/31/Elasticsearch%E7%B2%BE%E7%A1%AE%E7%B4%A2%E5%BC%95%E6%9D%83%E9%99%90%E7%AE%A1%E7%90%86/</loc>
+    
+    <lastmod>2025-08-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ohops.org/2025/08/15/ISO%E4%B8%83%E5%B1%82%E6%A8%A1%E5%9E%8B%E4%B8%8ETCP%E8%BF%9E%E6%8E%A5%E5%9F%BA%E7%A1%80/</loc>
+    
+    <lastmod>2025-08-15</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+
+  <url>
+    <loc>https://blog.ohops.org/</loc>
+    <lastmod>2025-08-15</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  
+  <url>
+    <loc>https://blog.ohops.org/tags/linux/</loc>
+    <lastmod>2025-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ohops.org/tags/kernel/</loc>
+    <lastmod>2025-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ohops.org/tags/centos/</loc>
+    <lastmod>2025-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ohops.org/tags/bind/</loc>
+    <lastmod>2025-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ohops.org/tags/kubernetes/</loc>
+    <lastmod>2025-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ohops.org/tags/k8s/</loc>
+    <lastmod>2025-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ohops.org/tags/cka/</loc>
+    <lastmod>2025-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ohops.org/tags/ceph/</loc>
+    <lastmod>2025-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ohops.org/tags/debian/</loc>
+    <lastmod>2025-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ohops.org/tags/dell/</loc>
+    <lastmod>2025-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ohops.org/tags/consul/</loc>
+    <lastmod>2025-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ohops.org/tags/%E6%9C%8D%E5%8A%A1%E6%B3%A8%E5%86%8C%E4%B8%AD%E5%BF%83/</loc>
+    <lastmod>2025-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ohops.org/tags/%E9%85%8D%E7%BD%AE%E4%B8%AD%E5%BF%83/</loc>
+    <lastmod>2025-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ohops.org/tags/elk/</loc>
+    <lastmod>2025-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ohops.org/tags/docker/</loc>
+    <lastmod>2025-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ohops.org/tags/Ops/</loc>
+    <lastmod>2025-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ohops.org/tags/pve/</loc>
+    <lastmod>2025-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ohops.org/tags/ansible/</loc>
+    <lastmod>2025-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ohops.org/tags/prometheus/</loc>
+    <lastmod>2025-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ohops.org/tags/openldap/</loc>
+    <lastmod>2025-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ohops.org/tags/%E9%9A%8F%E6%89%8B/</loc>
+    <lastmod>2025-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+
+  
+  <url>
+    <loc>https://blog.ohops.org/categories/%E8%BF%90%E7%BB%B4/</loc>
+    <lastmod>2025-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ohops.org/categories/%E4%BA%91%E5%8E%9F%E7%94%9F/</loc>
+    <lastmod>2025-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ohops.org/categories/CEPH/</loc>
+    <lastmod>2025-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ohops.org/categories/%E8%99%9A%E6%8B%9F%E5%8C%96/</loc>
+    <lastmod>2025-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://blog.ohops.org/categories/%E6%97%A5%E8%AE%B0/</loc>
+    <lastmod>2025-08-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+</urlset>
